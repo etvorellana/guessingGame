@@ -7,6 +7,11 @@ def main():
     game.play()
     game.changeGameKind()
     game.play()
+    while True:
+        answer = input("Would you like to play again? (y/n) ")
+        if answer == 'y':
+            game.resetGame()
+            game.play()       
     print("Thanks for playing!")
 
 if __name__ == '__main__':

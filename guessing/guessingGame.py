@@ -66,7 +66,7 @@ class GuessingGame:
             elif answer == 'l':
                 if self.__guess <= number:
                     print("You lied to me!")
-                    print("I guessed it in {} guesses!".format(self.__guesses))
+                    #print("I guessed it in {} guesses!".format(self.__guesses))
                     print("Your number was {}.".format(number))
                     print("{} is not lower than {}.".format(number, self.__guess))
                     break
